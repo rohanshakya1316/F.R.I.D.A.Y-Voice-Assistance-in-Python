@@ -7,6 +7,7 @@ FRIDAY is a simple voice-controlled assistant written in Python. It can recogniz
 ## 📁 Project Structure
 
 FRIDAY/
+
 ├── pycache/
 
 ├── venv/ # Virtual environment
