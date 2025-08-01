@@ -7,12 +7,19 @@ FRIDAY is a simple voice-controlled assistant written in Python. It can recogniz
 ## 📁 Project Structure
 
 FRIDAY/
+|
 ├── pycache/
+|
 ├── venv/ # Virtual environment
+|
 ├── main.py # Main file to start FRIDAY
+|
 ├── music_library.py # Music handling module
+|
 ├── test.py # Test scripts
+|
 ├── requirements.txt # Project dependencies
+|
 └── README.md # Project documentation
 
 ---
@@ -34,7 +41,7 @@ FRIDAY/
 git clone (this repository's link)
 cd FRIDAY
 
-2. Create and Activate Virtual Environment
+### 2. Create and Activate Virtual Environment
 Windows:
 
 python -m venv venv
@@ -45,20 +52,20 @@ macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
 
-3. Install Dependencies
+### 3. Install Dependencies
 
 Install all required packages listed in requirements.txt:
 
 pip install -r requirements.txt
 
-▶️ Running the Project
+### ▶️ Running the Project
 Once dependencies are installed, you can start FRIDAY by running:
 
 python main.py
 
 Ensure your microphone is connected and enabled.
 
-📦 Dependencies
+### 📦 Dependencies
 Some of the core libraries used:
 
 SpeechRecognition==3.14.3
@@ -75,7 +82,7 @@ pywin32==223
 
 All other dependencies are listed in requirements.txt.
 
-🧪 Testing
+### 🧪 Testing
 
 Run the test suite using:
 
@@ -83,7 +90,7 @@ python test.py ---> Done to test the pyttsx3
 
 Or test modules individually.
 
-🧠 Notes
+### 🧠 Notes
 Works best on Windows (due to pywin32)
 
 For Linux/macOS, you may need alternatives for Windows-only libraries.
@@ -93,5 +100,5 @@ If PyAudio fails to install, try:
 pip install pipwin
 pipwin install pyaudio
 
-🙋‍♂️ Author
+### 🙋‍♂️ Author
 Developed by Rohan Man Shakya
