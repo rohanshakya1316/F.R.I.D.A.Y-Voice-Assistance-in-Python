@@ -7,19 +7,18 @@ FRIDAY is a simple voice-controlled assistant written in Python. It can recogniz
 ## 📁 Project Structure
 
 FRIDAY/
-|
 ├── pycache/
-|
+
 ├── venv/ # Virtual environment
-|
+
 ├── main.py # Main file to start FRIDAY
-|
+
 ├── music_library.py # Music handling module
-|
+
 ├── test.py # Test scripts
-|
+
 ├── requirements.txt # Project dependencies
-|
+
 └── README.md # Project documentation
 
 ---
